@@ -1,0 +1,25 @@
+{
+    "name": "lswest/iconfonts",
+    "description": "An extension that offers twig function for creating i elements with specific classes, for use with any font library that uses that format.  Testing with Font Awesome.  The fonts must be installed/enabled manually.",
+    "type": "bolt-extension",
+    "keywords": ["bolt", "icons", "fonts", "awesome"],
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Westermann",
+            "email": "lswest34+bolt@gmail.com",
+            "homepage": "www.code-root.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\lswest\\iconfonts\\": ""
+        }
+    }
+}
