@@ -39,4 +39,9 @@ class Extension extends BaseExtension
             return "No icon given.";
         }
     }
+
+    public function isSafe()
+    {
+        return true;
+    }
 }
